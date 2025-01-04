@@ -60,3 +60,14 @@ void Karakter::sifirlaSavunma() {
 }
 
 Karakter::~Karakter() {}
+
+// === Kullanici Implementasyonu ===
+Kullanici::Kullanici(const string& isim) : Karakter(isim, 100, 15, 3) {}
+
+void Kullanici::ozelYetenek() {
+    cout << isim << " 10 can puani kazandi!" << endl;
+    can += 10;
+    if (can > 100) can = 100;
+}
+
+
