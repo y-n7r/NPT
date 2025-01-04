@@ -76,3 +76,15 @@ public:
         }
     }
 };
+
+
+int main() {
+    string kullaniciIsim;
+    cout << "Oyuncu ismini girin: ";
+    cin >> kullaniciIsim;
+
+    SavasOyunu oyun(kullaniciIsim);
+    oyun.oyunuBaslat();
+
+    return 0;
+}
