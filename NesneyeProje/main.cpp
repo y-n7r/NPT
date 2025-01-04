@@ -68,4 +68,11 @@ public:
         cout << dusman->getIsim() << " Can: " << dusman->getCan() << " Savunma: " << dusman->getSavunma() << endl;
     }
 
-    
+     void sonucuGoster() {
+        if (kullanici->hayattaMi()) {
+            cout << "Tebrikler! Kazandiniz." << endl;
+        } else {
+            cout << "Maalesef kaybettiniz." << endl;
+        }
+    }
+};
