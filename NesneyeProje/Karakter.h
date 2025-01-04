@@ -33,3 +33,11 @@ public:
     Kullanici(const string& isim);
     void ozelYetenek() override;
 };
+
+class Dusman : public Karakter {
+public:
+    Dusman(const string& isim);
+    void ozelYetenek() override;
+};
+
+#endif
