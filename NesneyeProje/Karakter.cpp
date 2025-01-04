@@ -70,4 +70,9 @@ void Kullanici::ozelYetenek() {
     if (can > 100) can = 100;
 }
 
+Dusman::Dusman(const string& isim) : Karakter(isim, 100, 15, 3) {}
 
+void Dusman::ozelYetenek() {
+    cout << isim << " saldiri gucunu artirdi!" << endl;
+    guc += 5;
+}
