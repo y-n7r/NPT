@@ -26,3 +26,10 @@ Karakter(const string& isim, int can, int guc, int savunma);
     void sifirlaSavunma();
     virtual ~Karakter();
 };
+
+
+class Kullanici : public Karakter {
+public:
+    Kullanici(const string& isim);
+    void ozelYetenek() override;
+};
