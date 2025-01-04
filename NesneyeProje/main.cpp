@@ -62,3 +62,10 @@ public:
 
         sonucuGoster();
     }
+
+    void durumGoster() {
+        cout << kullanici->getIsim() << " Can: " << kullanici->getCan() << " Savunma: " << kullanici->getSavunma() << endl;
+        cout << dusman->getIsim() << " Can: " << dusman->getCan() << " Savunma: " << dusman->getSavunma() << endl;
+    }
+
+    
